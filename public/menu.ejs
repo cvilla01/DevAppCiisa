@@ -1,0 +1,55 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/Log">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/admin">Seguridad</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/admin">Tableros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/conditions">Alertas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/tabs">Integración</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="/tabs">Dispositivos</a>
+            </li>
+        </ul>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item" >
+                    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                        Iniciar Sesion
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Inicio de Sesion</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div>
+                    <input type="text" class="form-control" placeholder="Usuario" name="user" required /></th>
+                    <hr/>
+                    <input type="text" class="form-control" placeholder="Contraseña" name="pass" required /></th>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                  <button type="submit" class="btn btn-primary">Iniciar</button>
+                </div>
+              </div>
+            </div>
+          </div>
